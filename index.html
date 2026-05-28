@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NutriVida Guatemala — Nutrición que Transforma tu Vida</title>
+  <meta name="description" content="Clínica de nutrición en Guatemala. Consultas presenciales y online. Planes personalizados para bajar de peso, rendimiento deportivo y enfermedades crónicas.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥦</text></svg>">
+</head>
+<body>
+
+<!-- ══════════════════ HEADER ══════════════════ -->
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🥦</div>
+        <div class="logo-text">Nutri<span>Vida</span></div>
+      </a>
+      <div class="nav-links">
+        <a href="#sobre">Sobre Mí</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#blog">Blog</a>
+        <a href="#tienda">Tienda</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <a href="#contacto" class="btn btn-primary nav-cta">📅 Agendar Cita</a>
+      <button class="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+  <nav class="mobile-nav">
+    <a href="#sobre">Sobre Mí</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#blog">Blog</a>
+    <a href="#tienda">Tienda</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#contacto" class="btn btn-primary">📅 Agendar Cita</a>
+  </nav>
+</header>
+
+<!-- ══════════════════ HERO ══════════════════ -->
+<section class="hero" id="inicio">
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-label">
+          <span class="dot"></span>
+          Clínica de Nutrición • Guatemala
+        </div>
+        <h1>Tu salud empieza<br>con lo que <span>comés</span> hoy</h1>
+        <p class="hero-desc">
+          Planes de nutrición personalizados para bajar de peso, mejorar tu rendimiento deportivo o controlar enfermedades crónicas. Presencial y online.
+        </p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn btn-primary">📅 Agendar mi primera cita</a>
+          <a href="#servicios" class="btn btn-outline">Ver servicios</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="num" data-count="150" data-suffix="+">0+</span>
+            <span class="txt">Pacientes activos</span>
+          </div>
+          <div class="hero-stat">
+            <span class="num" data-count="5" data-suffix="+">0+</span>
+            <span class="txt">Años de experiencia</span>
+          </div>
+          <div class="hero-stat">
+            <span class="num" data-count="98" data-suffix="%">0%</span>
+            <span class="txt">Pacientes satisfechos</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card-main">
+          <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=700&q=80" alt="Alimentación saludable">
+          <div class="hero-card-badge">
+            <div class="icon">🏆</div>
+            <div class="info">
+              <strong>Nutricionista certificada</strong>
+              <span>Licenciada en Nutrición</span>
+            </div>
+          </div>
+        </div>
+        <div class="floating-card card-1">
+          <div class="fc-title">Próxima disponibilidad</div>
+          <div class="fc-val"><span>Hoy</span> a las 3:00 PM</div>
+        </div>
+        <div class="floating-card card-2">
+          <div class="fc-title">Consulta online ✓</div>
+          <div class="fc-val">Desde cualquier lugar</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ DATOS CURIOSOS ══════════════════ -->
+<section class="datos">
+  <div class="container datos-inner">
+    <h2 class="datos-title">¿Sabías que... <span>tu alimentación lo cambia todo?</span></h2>
+    <div class="datos-grid">
+      <div class="dato-card reveal">
+        <div class="dato-icon">🧠</div>
+        <span class="dato-num" data-count="90" data-suffix="%">0%</span>
+        <p class="dato-text">de la serotonina (hormona del bienestar) se produce en el intestino, no en el cerebro</p>
+      </div>
+      <div class="dato-card reveal" style="--delay:100ms">
+        <div class="dato-icon">🔥</div>
+        <span class="dato-num" data-count="500" data-suffix="kcal">0</span>
+        <p class="dato-text">puede reducir tu ingesta diaria con cambios simples en la alimentación sin pasar hambre</p>
+      </div>
+      <div class="dato-card reveal" style="--delay:200ms">
+        <div class="dato-icon">🦠</div>
+        <span class="dato-num" data-count="38" data-suffix="T">0</span>
+        <p class="dato-text">de bacterias viven en tu intestino y afectan tu peso, humor y sistema inmune</p>
+      </div>
+      <div class="dato-card reveal" style="--delay:300ms">
+        <div class="dato-icon">💧</div>
+        <span class="dato-num" data-count="75" data-suffix="%">0%</span>
+        <p class="dato-text">de las personas confunden la sed con hambre, llevando a comer de más innecesariamente</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ SOBRE MÍ ══════════════════ -->
+<section class="sobre" id="sobre">
+  <div class="container">
+    <div class="sobre-inner">
+      <div class="sobre-img-wrap reveal">
+        <div class="sobre-img">
+          <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80" alt="Nutricionista">
+        </div>
+        <div class="sobre-badge">
+          <span class="num">+150</span>
+          <span class="txt">Pacientes<br>transformados</span>
+        </div>
+      </div>
+      <div class="sobre-content reveal">
+        <div class="section-header" style="text-align:left;margin-bottom:20px">
+          <span class="label">Sobre Mí</span>
+        </div>
+        <h2>Nutrición basada en <span>ciencia y empatía</span></h2>
+        <p>
+          Soy nutricionista con más de 5 años de experiencia ayudando a personas en Guatemala a transformar su relación con la comida. Trabajo con pacientes de todas las edades y condiciones: desde quienes buscan bajar de peso hasta deportistas de alto rendimiento y personas con enfermedades crónicas.
+        </p>
+        <p>
+          Mi filosofía es simple: no hay dietas universales. Cada cuerpo es único y merece un plan diseñado específicamente para él, que sea sostenible a largo plazo y que no implique pasar hambre ni sacrificar el placer de comer.
+        </p>
+        <div class="sobre-values">
+          <div class="sobre-value"><div class="check">✓</div> Licenciada en Nutrición</div>
+          <div class="sobre-value"><div class="check">✓</div> Atención presencial y online</div>
+          <div class="sobre-value"><div class="check">✓</div> Planes 100% personalizados</div>
+          <div class="sobre-value"><div class="check">✓</div> Seguimiento continuo</div>
+          <div class="sobre-value"><div class="check">✓</div> Enfoque multidisciplinario</div>
+          <div class="sobre-value"><div class="check">✓</div> Más de 5 años de experiencia</div>
+        </div>
+        <a href="#contacto" class="btn btn-primary">Agendá tu consulta →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ SERVICIOS ══════════════════ -->
+<section class="servicios" id="servicios">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="label">Servicios</span>
+      <h2>¿En qué te puedo ayudar?</h2>
+      <p>Cada servicio está diseñado para acompañarte en tu proceso, con atención personalizada y seguimiento real.</p>
+    </div>
+    <div class="servicios-grid">
+      <div class="servicio-card reveal">
+        <div class="servicio-icon">⚖️</div>
+        <h3>Control de Peso</h3>
+        <p>Planes personalizados para bajar o subir de peso de forma saludable y sostenible, sin dietas extremas ni efecto rebote.</p>
+        <a href="#contacto" class="servicio-link">Agendar cita →</a>
+      </div>
+      <div class="servicio-card reveal">
+        <div class="servicio-icon">🏃</div>
+        <h3>Nutrición Deportiva</h3>
+        <p>Optimizá tu rendimiento y recuperación con un plan nutricional adaptado a tu tipo de entrenamiento e intensidad.</p>
+        <a href="#contacto" class="servicio-link">Agendar cita →</a>
+      </div>
+      <div class="servicio-card reveal">
+        <div class="servicio-icon">🩺</div>
+        <h3>Enfermedades Crónicas</h3>
+        <p>Manejo nutricional de diabetes, hipertensión, colesterol elevado, síndrome metabólico y más. Con base científica.</p>
+        <a href="#contacto" class="servicio-link">Agendar cita →</a>
+      </div>
+      <div class="servicio-card reveal">
+        <div class="servicio-icon">👨‍👩‍👧</div>
+        <h3>Nutrición Familiar</h3>
+        <p>Planes adaptados para toda la familia, incluyendo niños y adolescentes. Una alimentación sana en casa cambia vidas.</p>
+        <a href="#contacto" class="servicio-link">Agendar cita →</a>
+      </div>
+      <div class="servicio-card reveal">
+        <div class="servicio-icon">🤰</div>
+        <h3>Embarazo y Lactancia</h3>
+        <p>Acompañamiento nutricional durante el embarazo y la lactancia para garantizar el bienestar de mamá y bebé.</p>
+        <a href="#contacto" class="servicio-link">Agendar cita →</a>
+      </div>
+      <div class="servicio-card reveal">
+        <div class="servicio-icon">🧘</div>
+        <h3>Reeducación Alimentaria</h3>
+        <p>Si tenés una relación difícil con la comida, trabajamos en modificar hábitos desde la raíz, de manera progresiva.</p>
+        <a href="#contacto" class="servicio-link">Agendar cita →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ BLOG ══════════════════ -->
+<section class="blog" id="blog">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="label">Blog</span>
+      <h2>Aprendé sobre nutrición</h2>
+      <p>Artículos prácticos, recetas saludables y datos que te van a sorprender. Actualizados regularmente.</p>
+    </div>
+    <div id="home-blog-grid" class="blog-grid">
+      <!-- Cargado dinámicamente desde posts.json -->
+    </div>
+    <div class="blog-cta-wrap reveal">
+      <a href="blog.html" class="btn btn-outline">Ver todos los artículos →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ TESTIMONIOS ══════════════════ -->
+<section class="testimonios" id="testimonios">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="label">Testimonios</span>
+      <h2>Lo que dicen mis pacientes</h2>
+      <p>Historias reales de personas que decidieron transformar su alimentación y su vida.</p>
+    </div>
+    <div class="testimonios-grid">
+      <div class="testimonio-card reveal">
+        <div class="quote-icon">"</div>
+        <div class="stars">★★★★★</div>
+        <p>Llevaba 10 años haciendo dietas sin resultados reales. En 4 meses con mi nutricionista bajé 12 kg y lo que más me sorprendió es que ¡no pasé hambre! Aprendí a comer diferente.</p>
+        <div class="testimonio-author">
+          <div class="testimonio-avatar">👩</div>
+          <div>
+            <div class="testimonio-name">María José R.</div>
+            <div class="testimonio-detail">Control de peso · Guatemala City</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonio-card reveal">
+        <div class="quote-icon">"</div>
+        <div class="stars">★★★★★</div>
+        <p>Soy maratonista y mi rendimiento mejoró muchísimo después de ajustar mi alimentación. El plan fue muy específico para mis entrenamientos. Totalmente recomendada.</p>
+        <div class="testimonio-author">
+          <div class="testimonio-avatar">🏃</div>
+          <div>
+            <div class="testimonio-name">Carlos M.</div>
+            <div class="testimonio-detail">Nutrición deportiva · Mixco</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonio-card reveal">
+        <div class="quote-icon">"</div>
+        <div class="stars">★★★★★</div>
+        <p>Me diagnosticaron diabetes tipo 2 y no sabía por dónde empezar. La orientación fue clara, práctica y sin juicios. Mi glucosa está controlada y me siento con más energía que nunca.</p>
+        <div class="testimonio-author">
+          <div class="testimonio-avatar">🧓</div>
+          <div>
+            <div class="testimonio-name">Don Roberto A.</div>
+            <div class="testimonio-detail">Manejo de diabetes · Villa Nueva</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonio-card reveal">
+        <div class="quote-icon">"</div>
+        <div class="stars">★★★★★</div>
+        <p>Las consultas online fueron muy cómodas. Vivo en Quetzaltenango y nunca tuve que viajar. La atención fue igual de personalizada y el seguimiento fue excelente.</p>
+        <div class="testimonio-author">
+          <div class="testimonio-avatar">👩‍💻</div>
+          <div>
+            <div class="testimonio-name">Ana Lucía P.</div>
+            <div class="testimonio-detail">Consulta online · Quetzaltenango</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ TIENDA ══════════════════ -->
+<section class="tienda" id="tienda">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="tienda-badge-info">🚀 Próximamente disponible</div>
+      <span class="label">Tienda</span>
+      <h2>Productos recomendados</h2>
+      <p>Suplementos, guías y herramientas seleccionadas para complementar tu plan nutricional.</p>
+    </div>
+    <div class="tienda-grid">
+      <div class="producto-card reveal">
+        <div class="producto-img">
+          <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&q=80" alt="Proteína Vegana">
+          <span class="producto-badge">Popular</span>
+        </div>
+        <div class="producto-body">
+          <div class="producto-cat">Suplementos</div>
+          <h3>Proteína Vegana Vainilla</h3>
+          <p>Alta en proteína, sin lactosa. Ideal para después del entrenamiento.</p>
+          <div class="producto-footer">
+            <span class="producto-price">Q 285</span>
+            <button class="producto-btn" disabled>Próximamente</button>
+          </div>
+        </div>
+      </div>
+      <div class="producto-card reveal">
+        <div class="producto-img">
+          <img src="https://images.unsplash.com/photo-1607532941433-304659e8198a?w=500&q=80" alt="Guía nutricional">
+        </div>
+        <div class="producto-body">
+          <div class="producto-cat">Guías digitales</div>
+          <h3>Guía: Come Bien Sin Gastar de Más</h3>
+          <p>Plan de alimentación económico y saludable para Guatemala. PDF descargable.</p>
+          <div class="producto-footer">
+            <span class="producto-price">Q 75</span>
+            <button class="producto-btn" disabled>Próximamente</button>
+          </div>
+        </div>
+      </div>
+      <div class="producto-card reveal">
+        <div class="producto-img">
+          <img src="https://images.unsplash.com/photo-1620706857370-e1b9770e8bb1?w=500&q=80" alt="Omega 3">
+          <span class="producto-badge">Nuevo</span>
+        </div>
+        <div class="producto-body">
+          <div class="producto-cat">Suplementos</div>
+          <h3>Omega 3 de Alta Pureza</h3>
+          <p>Ácidos grasos esenciales para el corazón, el cerebro y la inflamación.</p>
+          <div class="producto-footer">
+            <span class="producto-price">Q 195</span>
+            <button class="producto-btn" disabled>Próximamente</button>
+          </div>
+        </div>
+      </div>
+      <div class="producto-card reveal">
+        <div class="producto-img">
+          <img src="https://images.unsplash.com/photo-1544991875-5dc1b05f1254?w=500&q=80" alt="Balanza">
+        </div>
+        <div class="producto-body">
+          <div class="producto-cat">Accesorios</div>
+          <h3>Balanza de Cocina Digital</h3>
+          <p>Para medir porciones con precisión. Básica y fácil de usar.</p>
+          <div class="producto-footer">
+            <span class="producto-price">Q 120</span>
+            <button class="producto-btn" disabled>Próximamente</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tienda-coming reveal">
+      <p>🔔 La tienda estará disponible muy pronto. <strong>Agendá tu cita</strong> y te avisamos cuando abra.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ FAQ ══════════════════ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="label">Preguntas frecuentes</span>
+      <h2>¿Tenés dudas?</h2>
+      <p>Estas son las preguntas más comunes que recibo. Si la tuya no está, escribime.</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <h3>¿Cuánto dura una consulta de nutrición?</h3>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-a">
+          <div class="faq-a-inner">La primera consulta dura entre 60 y 90 minutos. En ella realizamos una evaluación completa: historial de salud, hábitos alimentarios, medidas antropométricas y objetivos. Las consultas de seguimiento duran entre 30 y 45 minutos.</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <h3>¿Con qué frecuencia debo hacer consultas?</h3>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-a">
+          <div class="faq-a-inner">Recomiendo hacer seguimiento cada 3-4 semanas al inicio del proceso. Conforme avanzás y los hábitos se consolidan, podemos espaciarlas a consultas mensuales o bimestrales.</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <h3>¿Las consultas online son igual de efectivas que las presenciales?</h3>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-a">
+          <div class="faq-a-inner">Sí. Las consultas online incluyen todo lo mismo que las presenciales: valoración completa, plan de alimentación personalizado y seguimiento. Solo necesitás una balanza en casa para compartir tus medidas.</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <h3>¿Voy a pasar hambre con el plan nutricional?</h3>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-a">
+          <div class="faq-a-inner">No. Mi enfoque no es restrictivo. Los planes están diseñados para que te sintás satisfecho/a, con energía y sin ansiedad por la comida. Comer bien no debe ser un sacrificio.</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <h3>¿Trabajás con niños y adolescentes?</h3>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-a">
+          <div class="faq-a-inner">Sí, trabajo con todas las etapas de vida: desde lactantes hasta adultos mayores, pasando por niños en edad escolar y adolescentes. La nutrición pediátrica tiene sus particularidades y me especializo en abordarla con paciencia y técnicas adaptadas.</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-q">
+          <h3>¿Puedo tener una consulta si tengo diabetes o hipertensión?</h3>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-a">
+          <div class="faq-a-inner">Por supuesto. De hecho, la nutrición es uno de los pilares más importantes en el manejo de estas condiciones. Trabajo en coordinación con tu médico tratante para diseñar un plan complementario y seguro.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ CONTACTO / CTA ══════════════════ -->
+<section class="contacto" id="contacto">
+  <div class="container">
+    <div class="cta-banner reveal">
+      <div class="cta-banner-inner">
+        <span class="label">¿Listo/a para empezar?</span>
+        <h2>Tu primera consulta<br>puede cambiar tu vida</h2>
+        <p>Agendá hoy y recibí un plan de alimentación diseñado exclusivamente para vos. Sin compromisos, sin dietas imposibles.</p>
+        <div class="cta-banner-actions">
+          <a href="https://wa.me/50212345678?text=Hola!%20Quisiera%20agendar%20una%20consulta%20de%20nutrici%C3%B3n" target="_blank" class="btn btn-white">
+            📱 Escribir por WhatsApp
+          </a>
+          <a href="mailto:contacto@nutrivida.gt" class="btn btn-outline" style="color:white;border-color:rgba(255,255,255,0.6)">
+            ✉️ Enviar un correo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contacto-info">
+      <div class="contacto-item reveal">
+        <div class="ci-icon">📍</div>
+        <div class="ci-text">
+          <strong>Ubicación</strong>
+          <span>Guatemala City, Guatemala<br>Zona 10 (presencial)</span>
+        </div>
+      </div>
+      <div class="contacto-item reveal">
+        <div class="ci-icon">🕐</div>
+        <div class="ci-text">
+          <strong>Horarios</strong>
+          <span>Lunes a Viernes: 8am – 6pm<br>Sábados: 8am – 12pm</span>
+        </div>
+      </div>
+      <div class="contacto-item reveal">
+        <div class="ci-icon">📱</div>
+        <div class="ci-text">
+          <strong>WhatsApp</strong>
+          <span>+502 1234-5678<br>Respuesta en menos de 24h</span>
+        </div>
+      </div>
+      <div class="contacto-item reveal">
+        <div class="ci-icon">💻</div>
+        <div class="ci-text">
+          <strong>Consultas Online</strong>
+          <span>Disponible para toda<br>Guatemala y el exterior</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ FOOTER ══════════════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">🥦</div>
+          <div class="logo-text">Nutri<span>Vida</span></div>
+        </a>
+        <p>Clínica de nutrición en Guatemala. Transformamos vidas a través de la alimentación consciente y personalizada.</p>
+        <div class="footer-social">
+          <a href="#" class="social-btn" aria-label="Instagram">📸</a>
+          <a href="#" class="social-btn" aria-label="Facebook">👤</a>
+          <a href="#" class="social-btn" aria-label="TikTok">🎵</a>
+          <a href="#" class="social-btn" aria-label="YouTube">▶️</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre">Sobre Mí</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#tienda">Tienda</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#servicios">Control de Peso</a></li>
+          <li><a href="#servicios">Nutrición Deportiva</a></li>
+          <li><a href="#servicios">Enfermedades Crónicas</a></li>
+          <li><a href="#servicios">Nutrición Familiar</a></li>
+          <li><a href="#servicios">Embarazo y Lactancia</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Blog</h4>
+        <ul>
+          <li><a href="blog.html">Todos los artículos</a></li>
+          <li><a href="blog.html">Recetas</a></li>
+          <li><a href="blog.html">Educación</a></li>
+          <li><a href="blog.html">Deporte</a></li>
+          <li><a href="blog.html">Curiosidades</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 <span>NutriVida</span>. Guatemala. Todos los derechos reservados.</p>
+      <p>Hecho con 💚 para tu bienestar</p>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp flotante -->
+<a href="https://wa.me/50212345678?text=Hola!%20Quisiera%20agendar%20una%20consulta" target="_blank" class="wa-float" aria-label="WhatsApp">
+  💬
+</a>
+
+<script src="js/main.js"></script>
+<script src="js/blog.js"></script>
+</body>
+</html>
